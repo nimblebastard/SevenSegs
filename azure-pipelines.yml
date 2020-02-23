@@ -29,5 +29,10 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
+    flake8
+  displayName: 'Static code analysis'
+
+- script: |
     pytest
   displayName: 'pytest'
+
