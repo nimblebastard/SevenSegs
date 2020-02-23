@@ -1,6 +1,6 @@
 """TBD"""
 
-from SevenSegs import Handler
+from SevenSegs.Handler import Handler
 
 
 def setup_function():
